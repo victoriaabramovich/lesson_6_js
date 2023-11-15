@@ -26,9 +26,10 @@ document.querySelectorAll(".newtext")
 
     item.appendChild(newTextElement)
 })
-
+// fotos ver vamateb
 // document.querySelectorAll(".container").forEach((item) => {
 //     let fotoNew = document.createElement("img");
 //     fotoNew.setAttribute("href", "https://yandex.ru/images/search?from=tabbar&img_url=https%3A%2F%2Fph0.qna.center%2Fstorage%2Fphotos%2Fdtnthgthtvty%2F1167802.jpg&lr=131&pos=7&rpt=simage&text=autumn");
 //     item.appendChild(fotoNew);
 // })
+// #3 Burger-bari shemdeg davalebashi iqneba
