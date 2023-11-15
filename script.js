@@ -15,7 +15,7 @@ let newTextElement = document.createElement("p");
 newTextElement.textContent = "hello";
 newTextElement.classList.add = ("newtext");
 
-document.getElementById("newtext").appendChild(newTextElement);
+document.querySelector(".newtext").appendChild(newTextElement);
 
 
 // document.querySelectorAll(".container").forEach((item) => {
