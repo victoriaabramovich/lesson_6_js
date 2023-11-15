@@ -18,6 +18,15 @@ newTextElement.classList.add = ("newtext");
 document.querySelector(".newtext").appendChild(newTextElement);
 
 
+document.querySelectorAll(".newtext")
+.forEach((item) => {
+    let newTextElement = document.createElement("p");
+    newTextElement.textContent = "hello";
+    newTextElement.classList.add = ("newtext");
+
+    item.appendChild(newTextElement)
+})
+
 // document.querySelectorAll(".container").forEach((item) => {
 //     let fotoNew = document.createElement("img");
 //     fotoNew.setAttribute("href", "https://yandex.ru/images/search?from=tabbar&img_url=https%3A%2F%2Fph0.qna.center%2Fstorage%2Fphotos%2Fdtnthgthtvty%2F1167802.jpg&lr=131&pos=7&rpt=simage&text=autumn");
